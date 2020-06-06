@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    height: 100%;
+    width: 100%; 
+}
+/*Top title w selections*/
+#title{
+    width: 100%;
+    height: 4em;
+    border: solid;
+    border-color: black;
+    border-width: 5%;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 3em;
+}
+#title-2{
+    background-image: url(pexels-photo-1750754);
+}
+#section-slt{
+    border: solid;
+    border-color: black;
+    border-width: 5%;
+    text-align: center;
+    width: 100%;
+}
+.sec-t, .sec-p, .sec-e, .sec-h{
+    border: solid;
+    border-color: black;
+    border-width: 5%;
+    width: 33%;
+    height: 3em;
+    float: right;
+    padding-top: 2em;
+    transition: font-size 2s;
+}
+.sec-t, .sec-p, .sec-e, .sec-h:hover{
+    transition: font-size .75s;
+}
+a{
+    transition: font-size 1.25s
+}
+a:hover{
+    font-size: 175%;
+    transition: font-size 0.75s;
+    background-color:rgba(206,206,206,0.75); ;
+    border-radius: 5px;
+}
+a:visited{
+    color: black;
+}
+a:link{
+    color: black;
+}
+/*main-page*/
+#main-page{
+    height: 53em;
+    width: 100%;
+    border-width: 5%;
+    border-color: black;
+    text-align: center;
+    background-color: rgba(128,128,128,1);
+}
+#header{
+    text-align: center;
+    background-color: white;
+}
+#info{
+    border: solid;
+    border-width: 5%;
+    border-color: black;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+}
+.ul-i{
+    line-height: 1.5;
+    list-style-type: none;
+}
+#img {
+    border: solid;
+    border-color: black;
+    border-width: medium;
+    width: 10%;
+    height: 30%;
+    float: right;
+    background-image: url(/Images/pexels-photo-1750754.jpeg);
+}
+#contact{
+    border: solid;
+    border-color: black;
+    border-radius: 25px;
+    height: 10%;
+    width: 20%;
+    float: left;
+    margin-top: 10%;
+    background-color: white;
+}
+h6{
+    font-size: 150%
+}
+/*The picture & contact (Email/name/sites) will be added later on*/
+/*Emg-srvc specific text/code.*/
+.img-emrg{
+    width: 70%;
+    height: auto;
+}
+#emg-a:hover{
+    background-color:rgba(206,206,206,0.75); ;
+}
+#emg-a:visited{
+    color: black;
+}
+#emg-a:link{
+    color: black;
+}
+#emg-a{
+    font-size: 150%
+}
+/*index specifil text/code*/
+#img-c{
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-top: 4%;
+}
+.class-a:hover{
+    background-color:rgba(206,206,206,0.75); ;
+}
+.title-a:visited{
+    color: black;
+}
+.title-a:link{
+    color: black;
+}
+.title-a{
+    font-size: 150%
+}
